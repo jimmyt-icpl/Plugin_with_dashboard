@@ -1,0 +1,22 @@
+{
+  "name": "@osd/analytics",
+  "private": true,
+  "version": "1.0.0",
+  "description": "OpenSearch Dashboards Analytics tool",
+  "main": "target/node/index.js",
+  "browser": "target/web/index.js",
+  "types": "target/types/index.d.ts",
+  "author": "Ahmad Bamieh <ahmadbamieh@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build",
+    "osd:bootstrap": "node scripts/build --source-maps",
+    "osd:watch": "node scripts/build --source-maps --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@osd/dev-utils": "1.0.0",
+    "@osd/babel-preset": "1.0.0",
+    "typescript": "4.0.2"
+  }
+}

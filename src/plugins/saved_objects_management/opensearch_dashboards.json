@@ -1,0 +1,10 @@
+{
+  "id": "savedObjectsManagement",
+  "version": "opensearchDashboards",
+  "server": true,
+  "ui": true,
+  "requiredPlugins": ["management", "data"],
+  "optionalPlugins": ["dashboard", "visualizations", "discover", "home", "visBuilder"],
+  "extraPublicDirs": ["public/lib"],
+  "requiredBundles": ["opensearchDashboardsReact", "home"]
+}
