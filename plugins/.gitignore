@@ -1,4 +1,7 @@
 # Ignore everything in this directory
 *new_invin_sense
+*invinsense
+*hello_world
+*api_call_plugin
 # Except this file
 !.gitignore
