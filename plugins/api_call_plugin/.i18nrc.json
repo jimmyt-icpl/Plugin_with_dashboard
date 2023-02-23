@@ -1,0 +1,7 @@
+{
+  "prefix": "apiCallPlugin",
+  "paths": {
+    "apiCallPlugin": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}

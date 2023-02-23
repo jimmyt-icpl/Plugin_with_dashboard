@@ -1,4 +1,4 @@
 # Ignore everything in this directory
-*
+*new_invin_sense
 # Except this file
 !.gitignore
